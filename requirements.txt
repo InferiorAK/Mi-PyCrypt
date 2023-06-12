@@ -1,0 +1,2 @@
+pathlib2==2.3.7.post1
+cython==0.29.35
