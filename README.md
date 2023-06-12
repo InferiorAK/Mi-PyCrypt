@@ -16,7 +16,7 @@ A simple Python Compiler tool works on both Python3 and Python2. Available singl
   <img src="https://img.shields.io/badge/Written%20In-Python2 & Python3-orange?style=flat-square">
   <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FInferiorAK%2FMi-PyCrypt&title=Visitors&edge_flat=false"/></a>
 </p>
-<p align=center>Tutorial : <a href="" target=_blank><b>**Click**</b></a><p>
+<p align=center>Tutorial : <a href="https://youtu.be/KzxZ6bLdUvY" target=_blank><b>**Click**</b></a><p>
 
 <br>
 
