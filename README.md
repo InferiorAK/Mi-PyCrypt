@@ -4,6 +4,22 @@
 
 A simple Python Compiler tool works on both Python3 and Python2. Available single and Mixed Encryptions. Easy to Use, Install and Enjoy!
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Version-1.0-green?style=for-the-badge">
+  <img src="https://img.shields.io/github/license/InferiorAK/Mi-PyCrypt?style=for-the-badge">
+  <img src="https://img.shields.io/github/stars/InferiorAK/Mi-PyCrypt?style=for-the-badge">
+  <img src="https://img.shields.io/github/issues/InferiorAK/Mi-PyCrypt?color=red&style=for-the-badge">
+  <img src="https://img.shields.io/github/forks/InferiorAK/Mi-PyCrypt?color=teal&style=for-the-badge">
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Author-InferiorAK-blue?style=flat-square">
+  <img src="https://img.shields.io/badge/Written%20In-Python2 & Python3-orange?style=flat-square">
+  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FInferiorAK%2FMi-PyCrypt&title=Visitors&edge_flat=false"/></a>
+</p>
+<p align=center>Tutorial : <a href="" target=_blank><b>**Click**</b></a><p>
+
+<br>
+
 # Compatible with
 - python2.7.x
 - python3.x.x
