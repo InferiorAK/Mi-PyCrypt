@@ -100,41 +100,41 @@ print(banner)
 
 # menu
 menu = """
-   \033[1;34m[\033[1;35m00\033[1;34m]\033[0;1m Exit Tool
-   \033[1;34m[\033[1;35m99\033[1;34m]\033[0;1m Update Tool
-   \033[1;34m[\033[1;35m69\033[1;34m]\033[0;1m Clean
-   \033[1;34m[\033[1;35m70\033[1;34m]\033[0;1m Note
-   \033[1;34m[\033[1;35m71\033[1;34m]\033[0;1m Install Dependencies
+   {brac1}00{brac2} Exit Tool
+   {brac1}99{brac2} Update Tool
+   {brac1}69{brac2} Clean
+   {brac1}70{brac2} Note
+   {brac1}71{brac2} Install Dependencies
  ┌──────────────┐
  │ \033[1;32mSingle Crypt\033[0m │
  └──────────────┘
-   \033[1;34m[\033[1;35m01\033[1;34m]\033[0;1m Char
-   \033[1;34m[\033[1;35m02\033[1;34m]\033[0;1m Base2
-   \033[1;34m[\033[1;35m03\033[1;34m]\033[0;1m Base16
-   \033[1;34m[\033[1;35m04\033[1;34m]\033[0;1m Base32
-   \033[1;34m[\033[1;35m05\033[1;34m]\033[0;1m Base64
-   \033[1;34m[\033[1;35m06\033[1;34m]\033[0;1m Base85  [Only py3]
-   \033[1;34m[\033[1;35m07\033[1;34m]\033[0;1m Zlib
-   \033[1;34m[\033[1;35m08\033[1;34m]\033[0;1m Marshal
-   \033[1;34m[\033[1;35m09\033[1;34m]\033[0;1m pycompile
-   \033[1;34m[\033[1;35m10\033[1;34m]\033[0;1m Cythonize  [Only py3]
+   {brac1}01{brac2} Char
+   {brac1}02{brac2} Base2
+   {brac1}03{brac2} Base16
+   {brac1}04{brac2} Base32
+   {brac1}05{brac2} Base64
+   {brac1}06{brac2} Base85  [Only py3]
+   {brac1}07{brac2} Zlib
+   {brac1}08{brac2} Marshal
+   {brac1}09{brac2} pycompile
+   {brac1}10{brac2} Cythonize  [Only py3]
   ┌─────────────┐
   │ \033[1;32mMixed Crypt\033[0m │
   └─────────────┘
-   \033[1;34m[\033[1;35m11\033[1;34m]\033[0;1m Zlib, Base16
-   \033[1;34m[\033[1;35m12\033[1;34m]\033[0;1m Zlib, Base32
-   \033[1;34m[\033[1;35m13\033[1;34m]\033[0;1m Zlib, Base64
-   \033[1;34m[\033[1;35m14\033[1;34m]\033[0;1m Marshal, Zlib
-   \033[1;34m[\033[1;35m15\033[1;34m]\033[0;1m Marshal, Base16
-   \033[1;34m[\033[1;35m16\033[1;34m]\033[0;1m Marshal, Base32
-   \033[1;34m[\033[1;35m17\033[1;34m]\033[0;1m Marshal, Base64
-   \033[1;34m[\033[1;35m18\033[1;34m]\033[0;1m Base16, Zlib, Marshal
-   \033[1;34m[\033[1;35m19\033[1;34m]\033[0;1m Base32, Zlib, Marshal
-   \033[1;34m[\033[1;35m20\033[1;34m]\033[0;1m Base64, Zlib, Marshal
-   \033[1;34m[\033[1;35m21\033[1;34m]\033[0;1m Base85, Zlib, Marshal  [Only py3]
+   {brac1}11{brac2} Zlib, Base16
+   {brac1}12{brac2} Zlib, Base32
+   {brac1}13{brac2} Zlib, Base64
+   {brac1}14{brac2} Marshal, Zlib
+   {brac1}15{brac2} Marshal, Base16
+   {brac1}16{brac2} Marshal, Base32
+   {brac1}17{brac2} Marshal, Base64
+   {brac1}18{brac2} Base16, Zlib, Marshal
+   {brac1}19{brac2} Base32, Zlib, Marshal
+   {brac1}20{brac2} Base64, Zlib, Marshal
+   {brac1}21{brac2} Base85, Zlib, Marshal  [Only py3]
 
 """
-print(menu)
+print(menu.format(brac1="\033[1;34m[\033[1;35m", brac2="\033[1;34m]\033[0;1m"))
 
 
 credit = """# Compiled by : Mi-PyCrypt
